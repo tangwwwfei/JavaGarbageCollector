@@ -1,6 +1,6 @@
 #!/bin/bash
 GCs=( "Serial" "Parallel" "ConcMarkSweep" "G1" "Z" "Shenandoah" )
-test_options=( "fop" "Avrora" "tradebeans" )
+test_options=( "fop" "tradesoap" "tradebeans" )
 for gc in ${GCs[@]}
 do
 	for option in ${test_options[@]}
